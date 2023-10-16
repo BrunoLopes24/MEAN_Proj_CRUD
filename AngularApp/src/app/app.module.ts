@@ -7,14 +7,18 @@ import { HeaderComponent } from './header/header.component';
 import { DiaryComponent } from './diary/diary.component';
 import { DiaryformComponent } from './diaryform/diaryform.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { SignUpComponent } from './sign-up/sign-up.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DiaryComponent,
-    DiaryformComponent
+    DiaryformComponent,
+    LoginComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
